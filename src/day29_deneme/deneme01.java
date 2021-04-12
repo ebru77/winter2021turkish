@@ -10,6 +10,8 @@ public class deneme01 {
 
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("git'e merhaba");
+
     }
 
 }
