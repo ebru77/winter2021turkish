@@ -2,8 +2,9 @@ package day21_scope;
 
 public class Scope6 {
 	
-	int num1;//Instance variable
-	String name ="Ali";//Instance variable
+	 public int num1;//(Instance variable)access modifier public yapilinca heryerden ulasilabilir
+	String name ="Ali";//(Instance variable)access modifier yazilmadigi icin default
+	//access modifier gecerlidir sadece paket icinde kullanilabilir
 	
 	public static void main(String args) {
 		
