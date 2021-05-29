@@ -5,7 +5,7 @@ import java.util.List;
 
 public class C3_PassByValue03 {
 
-	public static void main(String[] args) {
+	public static <String, Integer> void main(String[] args) {
 /*
  Bir list olusturalim eleman olarak 10,11,12 ekleyelim.iki
  method olusturup list elemanlarin
@@ -14,7 +14,7 @@ public class C3_PassByValue03 {
  Method'lari arka arkaya cagirip artislarin kalici olup 
  olmadiklarini kontrol edelim
  */
-		List<Integer> list = new ArrayList<>();
+		List<java.lang.Integer> list = new ArrayList<>();
 		list.add(10);
 		list.add(11);
 		list.add(12);

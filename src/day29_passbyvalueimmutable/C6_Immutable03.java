@@ -1,7 +1,9 @@
 package day29_passbyvalueimmutable;
 
 public class C6_Immutable03 {
-    public static void main(String[] args) {
+
+
+    public static  void main(String[] args) {
 
         //Atama yapildiginda ne olur?
 

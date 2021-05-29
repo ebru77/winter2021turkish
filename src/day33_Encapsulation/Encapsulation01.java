@@ -1,11 +1,12 @@
-package day33_Encapsulation;
+package day33_encapsulation;
 
 import day20_scope.Scope1;
 import day21_scope.Scope6;
 
 public class Encapsulation01 {
+
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
-        //OOP concept (object oriented programing)
         // OOP concept
         // Object Oriented Programing
         // Bir proje kapsamindaki class'larda olusturulan variable ve method'larin
@@ -57,5 +58,5 @@ public class Encapsulation01 {
 
 
 
-    }
-}
+
+

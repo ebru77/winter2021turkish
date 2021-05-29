@@ -2,16 +2,19 @@ package day20_scope;
 
 import java.util.Scanner;
 public class Scope1 {
-	
-	int sayi;//classin icinde fakat main methodun disinda olusturulan
+
+    public String isim;
+	public String soyisim;
+	public int sayi;
+	int sayi1;//classin icinde fakat main methodun disinda olusturulan
 	//ve static olmayan variablelara INSTANCE(Object)variable denir.
 	//class level da olusturuldugu icin classin her yerinden belli sartlarla kullanilabilir.
 	//object'e bagli olarak calisir(ogretmen adi veya ogrenci notu gibi)
 	
-	String isim = "Mehmet";// Mehmet degeri atanmis
-	String soyisim;// Deger atanmamis "null"verir
-	boolean izindeMi;// Deger atanmamis "false" verir
-	char ilkHarf;//Deger atanmamis "hiclik" verir.
+	String isim1 = "Mehmet";// Mehmet degeri atanmis
+	String soyisim1;// Deger atanmamis "null"verir
+	boolean izindeMi1;// Deger atanmamis "false" verir
+	char ilkHarf1;//Deger atanmamis "hiclik" verir.
 	
 	public static void main(String[] args) {
 	//System.out.println(sayi); Static olmayan bir variable'a static method icinden ulasamayiz
@@ -37,15 +40,15 @@ public class Scope1 {
 		
 	 System.out.println(obj2.isim + " " + obj2.soyisim);//Muslum Baba
 	 System.out.println(obj1.isim + " " + obj1.soyisim);//Mehmet null
-	 System.out.println(obj1.izindeMi);//false
-	 System.out.println(obj1.ilkHarf);// hiclik verir
+	 System.out.println(obj1.izindeMi1);//false
+	 System.out.println(obj1.ilkHarf1);// hiclik verir
 	 
 	 Scope1 obj3 = new Scope1();
 	 obj3.isim ="Ferdi";
 	 obj3.soyisim ="Tayfur";
-	 obj3.izindeMi = true;
+	 obj3.izindeMi1 = true;
 	 
-	 System.out.println(obj3.isim + " " + obj3.soyisim + " " + obj3.izindeMi);//Ferdi Tayfur
+	 System.out.println(obj3.isim + " " + obj3.soyisim + " " + obj3.izindeMi1);//Ferdi Tayfur
 		scan.close();	 
 	}
 	
